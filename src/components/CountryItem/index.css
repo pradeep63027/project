@@ -1,0 +1,26 @@
+.country-item {
+  display: flex;
+  flex-direction: row;
+  align-items:;
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style-type: none;
+  width: 45%;
+  max-width: 120px;
+  background-color: #ffffff;
+}
+
+@media Screen and (min-width: 768px) {
+  .country-item {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.country-image {
+  display: flex;
+  height: 180px;
+  width: 199px;
+}

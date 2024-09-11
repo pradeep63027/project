@@ -1,0 +1,28 @@
+.country-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 5px;
+  margin: 8px;
+}
+
+.tab-button {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: none;
+  padding-left: 10px;
+
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #2563eb;
+  border-bottom: 2px;
+  padding-top: 8px;
+}
